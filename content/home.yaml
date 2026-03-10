@@ -53,17 +53,12 @@ download:
     top: Download for
     details: Windows 10＋
     bottom: Windows
-    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION/EasyReflectometryApp_v$RELEASE_VERSION_windows-2022.exe
-  - icon: fab fa-apple
-    top: Download for
-    bottom: macOS
-    details: macOS 13, Intel
-    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION/EasyReflectometryApp_v$RELEASE_VERSION_macos-13-Intel.zip
+    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION/EasyReflectometryApp_v$RELEASE_VERSION_windows-2022.zip
   - icon: fab fa-apple
     top: Download for
     bottom: macOS
     details: macOS 14, Apple Silicon
-    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION_macos/EasyReflectometryApp_v$RELEASE_VERSION_macos_macos-14-AppleSilicon.zip
+    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION/EasyReflectometryApp_v$RELEASE_VERSION_macos-14-AppleSilicon.zip
   - icon: icon-ubuntu
     top: Download for
     bottom: Ubuntu
