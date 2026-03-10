@@ -63,12 +63,12 @@ download:
     top: Download for
     bottom: Ubuntu
     details: Ubuntu 22.04
-    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION/EasyReflectometryApp_v$RELEASE_VERSION_ubuntu-22.04
+    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION/EasyReflectometryApp_v$RELEASE_VERSION_ubuntu-22.04.zip
   - icon: icon-ubuntu
     top: Download for
     bottom: Ubuntu
     details: Ubuntu 24.04
-    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION/EasyReflectometryApp_v$RELEASE_VERSION_ubuntu-24.04
+    url: https://github.com/EasyScience/EasyReflectometryApp/releases/download/v$RELEASE_VERSION/EasyReflectometryApp_v$RELEASE_VERSION_ubuntu-24.04.zip
   - icon: fab fa-github
     top: Run it from
     bottom: source
