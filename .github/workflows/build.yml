@@ -29,6 +29,10 @@ jobs:
         working-directory: ..
         run: git clone ${GITHUB_SERVER_URL}/EasyScience/EasySite
 
+      - name: Create project symlink for content
+        working-directory: ..
+        run: ln -s ${PROJECT_NAME}Www ${PROJECT_NAME}
+
       - name: Add assets
         working-directory: ..
         run: cp -R ${PROJECT_NAME}Www/assets EasySite/src/copy
