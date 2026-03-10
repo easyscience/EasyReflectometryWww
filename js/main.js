@@ -71,6 +71,8 @@
 
   if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
     _theme = 'dark'
+    document.getElementById('_light_theme_logo').classList.replace('inline-block', 'hidden')
+    document.getElementById('_dark_theme_logo').classList.replace('hidden', 'inline-block')
     document.getElementById('_light_theme_icon').classList.replace('hidden', 'inline')
     document.getElementById('_dark_theme_icon').classList.replace('inline', 'hidden')
     if (window.pageYOffset > document.getElementById("_header").offsetTop) {
@@ -78,6 +80,8 @@
     }
   } else {
     _theme = 'light'
+    document.getElementById('_dark_theme_logo').classList.replace('inline-block', 'hidden')
+    document.getElementById('_light_theme_logo').classList.replace('hidden', 'inline-block')
     document.getElementById('_dark_theme_icon').classList.replace('hidden', 'inline')
     document.getElementById('_light_theme_icon').classList.replace('inline', 'hidden')
     if (window.pageYOffset > document.getElementById("_header").offsetTop) {
@@ -92,6 +96,8 @@
       _theme = 'light'
       localStorage.theme = _theme
       document.documentElement.classList.remove('dark')
+      document.getElementById('_light_theme_logo').classList.replace('hidden', 'inline-block')
+      document.getElementById('_dark_theme_logo').classList.replace('inline-block', 'hidden')
       document.getElementById('_light_theme_icon').classList.replace('inline', 'hidden')
       document.getElementById('_dark_theme_icon').classList.replace('hidden', 'inline')
       if (window.pageYOffset > document.getElementById("_header").offsetTop) {
@@ -101,6 +107,8 @@
       _theme = 'dark'
       localStorage.theme = _theme
       document.documentElement.classList.add('dark')
+      document.getElementById('_dark_theme_logo').classList.replace('hidden', 'inline-block')
+      document.getElementById('_light_theme_logo').classList.replace('inline-block', 'hidden')
       document.getElementById('_dark_theme_icon').classList.replace('inline', 'hidden')
       document.getElementById('_light_theme_icon').classList.replace('hidden', 'inline')
       if (window.pageYOffset > document.getElementById("_header").offsetTop) {
