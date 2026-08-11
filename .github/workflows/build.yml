@@ -10,12 +10,12 @@ jobs:
 
     steps:
       - name: Cancel previous workflow runs
-        uses: n1hility/cancel-previous-runs@v2
+        uses: n1hility/cancel-previous-runs@v3
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Check-out repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v7
 
       - name: Declare env variables
         if: github.event_name == 'push'
