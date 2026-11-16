@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 1012 1012" version="1.1" id="svg943" xmlns="http://www.w3.org/2000/svg">
+  <defs id="defs919">
+    <linearGradient id="gradient-2" gradientUnits="userSpaceOnUse" x1="510" y1="40" x2="510" y2="980" gradientTransform="matrix(1, 0, 0, 1, -4, -4)">
+      <stop offset="0" style="stop-color: rgb(152, 226, 255);"/>
+      <stop offset="1" style="stop-color: rgb(78, 193, 239);"/>
+    </linearGradient>
+    <radialGradient id="gradient-3" gradientUnits="userSpaceOnUse" cx="845.138" cy="475.138" r="470" gradientTransform="matrix(0.696608, -0.96512, 0.810848, 0.585257, -262.802521, 699.730408)">
+      <stop offset="0" style="stop-color: rgb(0, 170, 237);"/>
+      <stop offset="1" style="stop-color: rgb(0, 145, 202);"/>
+    </radialGradient>
+  </defs>
+  <rect style="stroke-linecap: round; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1; paint-order: stroke markers; fill-opacity: 1; stroke-width: 69px; stroke: url(#gradient-2); fill: url(#gradient-3);" id="rect949" width="940" height="940" x="36" y="36" ry="144.011"/>
+  <path style="fill: none; fill-opacity: 1; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(152, 226, 255); stroke-width: 138px;" d="M 166 206 L 263.721 206 C 263.721 206 407.135 808.978 846 808.978" id="path961"/>
+  <path style="fill: none; fill-opacity: 1; stroke-linecap: round; stroke-linejoin: miter; stroke-miterlimit: 4; stroke-dasharray: none; stroke-opacity: 1; stroke: rgb(255, 255, 255); stroke-width: 67px;" d="M 166 206 L 263.721 206 C 263.721 206 407.135 808.978 846 808.978" id="path951"/>
+</svg>
